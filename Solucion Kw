@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+int main() {
+    float kw;
+    float monto;
+    float precio=0.4522;
+   cout<<"Cantidad de Kw: ";
+    cin>>kw;
+    monto=kw*precio;
+    if (kw>100);
+    monto=monto+0.7*kw;
+    cout<<"el precio es:" <<monto<<endl;
